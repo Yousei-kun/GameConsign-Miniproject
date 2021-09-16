@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Link FAVICON-->
+    <link rel="icon" type="image/x-icon" href="resource/gameconsign-icon.ico" />
+
+    <!-- Link FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- Link STYLESHEET (CSS) -->
+    <link rel="stylesheet" href="css\style.css">
+
+    <title>Gameconsign Homepage</title>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="text-normal" href="#">
+                <div class="nav-brand">
+                    <img src="resource/gameconsign-icon-white.svg" alt="">
+                    GAMECONSIGN
+                </div>
+
+                <div class="nav-menu" id="nav-menu">
+                    <ul>
+                        <li class="nav-item"><a href="#">HOME</a></li>
+                        <li class="nav-item"><a href="#product">PRODUCTS</a></li>
+                        <li class="nav-item"><a href="#about">ABOUT</a></li>
+                        <li class="nav-item"><a href="#features">FEATURES</a></li>
+                        <li class="nav-item"><a href="#about-creator">FOUNDER</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-menu-mobile" onclick="navMobile()">
+                    <img src="resource/nav-mobile.png" alt="">
+                </div>
+            </a>
+        </nav>
+
+        <div id="darken">
+            <div id="nav-list-mobile">
+                <div class="nav-list-mobile-close" onclick="navMobileClose()">
+                    <img src="resource/nav-mobile-close.png" alt="">
+                </div>
+                <ul>
+                    <li class="nav-item"><a href="#">HOME</a></li>
+                    <li class="nav-item"><a href="#product">PRODUCTS</a></li>
+                    <li class="nav-item"><a href="#about">ABOUT</a></li>
+                    <li class="nav-item"><a href="#features">FEATURES</a></li>
+                    <li class="nav-item"><a href="#about-creator">FOUNDER</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="jumbotron">
+            <div class="tagline">
+                <div class="tagline-header">Let your gaming soul screams.</div>
+                <div class="tagline-header-secondary">WILDLY.</div>
+            </div>
+            <button type="button" class="btn-xl btn-primary">
+                <a class="text-normal" href="#product">VIEW OUR PRODUCTS</a>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div id="content">
+            <article id="product">
+                <div class="article-header-dark mb-3">
+                    See Our Available Products
+                </div>
+                <section id="product-display">
+                    <div class="card">
+                        <img src="resource/products/1.jpg" alt="">
+                        <div class="card-details">
+                            <div class="product-name">
+                                Rexus Daxa Air Headphone
+                            </div>
+                            <div class="product-price text-muted">
+                                Rp 750.000,-
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="resource/products/2.jpg" alt="">
+                        <div class="card-details">
+                            <div class="product-name">
+                                Rexus Sierra X1 Mouse
+                            </div>
+                            <div class="product-price text-muted">
+                                Rp 125.000,-
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="resource/products/3.jpg" alt="">
+                        <div class="card-details">
+                            <div class="product-name">
+                                Fantech Battlefield Keyboard
+                            </div>
+                            <div class="product-price text-muted">
+                                Rp 300.000,-
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="resource/products/4.jpg" alt="">
+                        <div class="card-details">
+                            <div class="product-name">
+                                Fantech Royalty Mousepad
+                            </div>
+                            <div class="product-price text-muted">
+                                Rp 250.000,-
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+
+            <article id="about">
+                <div class="article-header mb-3">
+                    <img src="resource/gameconsign-icon.svg" alt="">
+                    <div class="brand">
+                        GAMECONSIGN
+                    </div>
+                </div>
+                <section>
+                    <div class="about-description">
+                        GAMECONSIGN, found in 2015, is the oldest shop in Indonesia to consign your gaming gears.
+                        Quality, speed, and security is our priority.
+                        Feel rest and assured to consign your gears here!
+                    </div>
+                </section>
+            </article>
+
+            <article id="features">
+                <div class="article-header-dark mb-3">
+                    Why GAMECONSIGN?
+                </div>
+                <section class="grid-group">
+                    <div class="grid">
+                        <img src="resource/features/safe-white.png" alt="">
+                        <div class="grid-title">
+                            SAFE
+                        </div>
+                        <div class="grid-desc">
+                            Feel safe that 170.000+ people has trusted their gaming gears in our hand.
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <img src="resource/features/fast-white.png" alt="">
+                        <div class="grid-title">
+                            FAST
+                        </div>
+                        <div class="grid-desc">
+                            Fastest in the country-- Send the trusted goods in a flash!
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <img src="resource/features/quality-white.png" alt="">
+                        <div class="grid-title">
+                            QUALITY
+                        </div>
+                        <div class="grid-desc">
+                            Only the good-quality pieces are allowed to be consigned here.
+                        </div>
+                    </div>
+                </section>
+            </article>
+
+            <aside>
+                <article id="about-creator">
+                    <div class="article-header-dark mb-3">
+                        Founder Team
+                    </div>
+                    <section id="creator-card">
+                        <div class="card card-dark">
+                            <img src="resource/creator/creator.jpeg" alt="">
+                            <div class="card-details">
+                                <div class="product-name">
+                                    Ivan Budianto
+                                </div>
+                                <div class="product-price text-muted">
+                                    CEO of GAMECONSIGN
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+            </aside>
+        </div>
+    </main>
+    <footer>
+        <p>COPYRIGHT&copy 2021 GAMECONSIGN -- ALL RIGHTS RESERVED.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
